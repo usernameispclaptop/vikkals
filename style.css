@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  margin-left: 10px;
+}
+
+
+.image-container {
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.profile {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  /* Remove extra space beneath the image */
+  margin: 0 auto;
+  /* Optional: Center the image horizontally */
+}
+
+.aboutus {
+  color: white;
+}
+
+.poster {
+  height: 200px;
+  width: 200px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px 7px rgb(243, 6, 243, 0.7);
+}
+
+.youtube {
+  border-radius: 20px;
+  border: solid red 2px;
+  box-shadow: 0 0 30px 3px rgb(237, 89, 89);
+  margin: 30px;
+}
+
+.aboutborder {
+  border: 2px rgb(10, 183, 245) solid;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.abtcontainer {
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.abt img {
+  max-width: 100%;
+  height: 500px;
+}
+
+.abt p {
+  text-align: justify;
+}
+
+.socialmediay:hover {
+  padding-right: 6px;
+  padding-left: 6px;
+  padding: 4px;
+  border-radius: 6px;
+  background-color: red;
+}
+
+.socialmediaf:hover {
+  padding-right: 6px;
+  padding-left: 6px;
+  padding: 4px;
+  background-color: rgb(53, 53, 253);
+}
+
+.socialmediat:hover {
+  padding-right: 6px;
+  padding-left: 6px;
+  padding: 4px;
+  border-radius: 6px;
+  background-color: rgb(10, 201, 201);
+}
+
+.socialmediai:hover {
+  padding: 4px;
+  padding-right: 6px;
+  padding-left: 6px;
+  border-radius: 6px;
+  background: linear-gradient(to right, fuchsia, orange)
+}
+
+.socialmedial:hover {
+  padding-right: 6px;
+  padding-left: 6px;
+  padding: 4px;
+  background-color: rgb(6, 69, 120);
+}
+
+.banner-img {
+  width: 100%;
+  height: 100%;
+}
