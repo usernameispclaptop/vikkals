@@ -15,6 +15,28 @@
   height: 100%;
 }
 
+.texttype {
+  text-align: center;
+}
+
+.typewriter {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 3s steps(40) infinite;
+  border-right: 1px solid #000;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
 .image-container {
   max-width: 100%;
   height: auto;
